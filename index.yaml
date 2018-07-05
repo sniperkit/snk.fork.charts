@@ -1,0 +1,147 @@
+apiVersion: v1
+entries:
+  bblfsh-dashboard:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.698719089Z
+    description: |
+      A web interface for Babelfish (https://doc.bblf.sh/).
+    digest: 13b734a958933ef452eea8bb52d56a2cefb55e45cd3999fd80bdb0d3073ee243
+    name: bblfsh-dashboard
+    urls:
+    - https://src-d.github.io/charts/bblfsh-dashboard-0.4.0.tgz
+    version: 0.4.0
+  bblfshd:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.699916194Z
+    description: A Helm chart for Kubernetes
+    digest: d1d7284ff3a42fc0721048b588829a2bd5ad38eb0a230d56793c15d74c6280c0
+    name: bblfshd
+    urls:
+    - https://src-d.github.io/charts/bblfshd-0.2.0.tgz
+    version: 0.2.0
+  borges:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.700495687Z
+    description: A Helm chart for Kubernetes
+    digest: b669c9ee16f82c068da86c906be98ed9a542ba076317d667917ac9230d6a46a1
+    name: borges
+    urls:
+    - https://src-d.github.io/charts/borges-0.5.0.tgz
+    version: 0.5.0
+  drone:
+  - created: 2018-07-05T13:55:19.701144067Z
+    description: Drone CI
+    digest: 784d7af976ed4c53e43859d6dd1b8058720747a972fe6a5baa2d430cd7aed34d
+    keywords:
+    - continuous-deployment
+    - continuous-integration
+    - docker
+    - drone
+    - drone.io
+    - go
+    maintainers:
+    - email: infra@sourced.tech
+    name: drone
+    sources:
+    - http://readme.drone.io/
+    urls:
+    - https://src-d.github.io/charts/drone-0.1.3.tgz
+    version: 0.1.3
+  ewbf-miner:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.7015694Z
+    description: A Helm chart for Kubernetes
+    digest: 956823a25c051eee4b8794bf71ef34cf60ed30edcd42190cea27e2e29e0faa39
+    name: ewbf-miner
+    urls:
+    - https://src-d.github.io/charts/ewbf-miner-0.1.0.tgz
+    version: 0.1.0
+  git-server:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.702019317Z
+    description: A Helm chart for Kubernetes
+    digest: 6ff0142ed4c35f230b7380e979c9efb0affe3e5c9134fa4a03bcab5282f66da9
+    name: git-server
+    urls:
+    - https://src-d.github.io/charts/git-server-0.1.0.tgz
+    version: 0.1.0
+  gitbase-playground:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-07-05T13:55:19.702740159Z
+    description: A Helm chart for Kubernetes
+    digest: dd15ef5499a596278617344e746b870545f07f2ede20f5f1479d86f767d67d81
+    name: gitbase-playground
+    urls:
+    - https://src-d.github.io/charts/gitbase-playground-0.1.4.tgz
+    version: 0.1.4
+  kube-cert-manager:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.703060522Z
+    description: Manages Let's Encrypt TLS certificates for Kubernetes
+    digest: fdd4a43e344bc2d3865bb9f2e87266c8e62fa2bee61249aa0cc5e4beaa545bb3
+    name: kube-cert-manager
+    urls:
+    - https://src-d.github.io/charts/kube-cert-manager-0.1.0.tgz
+    version: 0.1.0
+  rovers:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.703457893Z
+    description: A Helm chart for Kubernetes
+    digest: 85307d8eb5926b96c84479cdfd6b8e326b81481805c4316a302cd30af86e1970
+    name: rovers
+    urls:
+    - https://src-d.github.io/charts/rovers-0.1.0.tgz
+    version: 0.1.0
+  scylla:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-07-05T13:55:19.703746735Z
+    description: A Helm chart for Scylla
+    digest: 3163b4f55b0c5b411396a2e6b448b29df925fe56090fdc33d74683bba7a840fd
+    home: https://www.scylladb.com/
+    icon: https://www.scylladb.com/wp-content/uploads/logo-scylla.svg
+    name: scylla
+    sources:
+    - https://github.com/scylladb/scylla
+    - https://github.com/src-d/gemini/tree/master/k8s
+    urls:
+    - https://src-d.github.io/charts/scylla-0.1.1.tgz
+    version: 0.1.1
+  sign-off-checker:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.703964013Z
+    description: |
+      A GitHub webhook integration to ensure commits have "Signed-off-by"
+      https://github.com/heptio/sign-off-checker
+    digest: 2ffd4dc2b05462b970e01653f416498b3c8f431aa4507c2248b18985b47959ab
+    name: sign-off-checker
+    urls:
+    - https://src-d.github.io/charts/sign-off-checker-0.1.0.tgz
+    version: 0.1.0
+  spark:
+  - created: 2018-07-05T13:55:19.70441985Z
+    description: Fast and general-purpose cluster computing system.
+    digest: a81c455216e913bb2fc440b02617a15cbaf75a93ef5081c142b2a06bcd251001
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    maintainers:
+    - email: rafa@sourced.tech
+      name: Rafael Porres
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - https://src-d.github.io/charts/spark-0.1.3.tgz
+    version: 0.1.3
+  spark-api-jupyter:
+  - apiVersion: v1
+    created: 2018-07-05T13:55:19.704678869Z
+    description: A Helm chart for Kubernetes
+    digest: 32e0d463d4e91644a82297634ee13714a47bcb94ebd8bf68da04665e05ca54e6
+    name: spark-api-jupyter
+    urls:
+    - https://src-d.github.io/charts/spark-api-jupyter-0.1.1.tgz
+    version: 0.1.1
+generated: 2018-07-05T13:55:19.698245941Z

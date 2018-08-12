@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 {{- $secretName := default (include "fullname" .) .Values.secretName -}}
 
 apiVersion: extensions/v1beta1

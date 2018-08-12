@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 {{- if .Values.ingress.enabled -}}
 {{- $serviceName := include "gitbase-playground.fullname" . -}}
 {{- $servicePort := .Values.service.port -}}

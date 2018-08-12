@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 {{- if not .Values.settings.serverAddr }}
 apiVersion: extensions/v1beta1
 kind: Deployment

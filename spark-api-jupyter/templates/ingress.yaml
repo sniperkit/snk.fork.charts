@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 {{- if .Values.ingress.enabled -}}
 {{- $serviceName := include "fullname" . -}}
 {{- $servicePort := .Values.service.externalPort -}}

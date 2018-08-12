@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 apiVersion: v1
 name: sign-off-checker
 version: 0.1.0

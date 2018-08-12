@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 {{- if and (not .Values.settings.bblfshdServer) (not .Values.settings.gitbaseServer) }}
 apiVersion: apps/v1beta2
 kind: StatefulSet

@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 apiVersion: v1
 description: Manages Let's Encrypt TLS certificates for Kubernetes
 name: kube-cert-manager
